@@ -1,1 +1,0 @@
-export default function Terms(){ return (<div className='card'><h1>Terms</h1><p>Full terms available in repo.</p></div>) }
