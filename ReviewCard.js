@@ -1,0 +1,1 @@
+export default function ReviewCard({ review }){ return (<div className='card'><div style={{fontWeight:700}}>{review.name} <span style={{fontSize:12,color:'#6b7280'}}>{review.location}</span></div><div style={{color:'#f59e0b'}}>★★★★★</div><p style={{marginTop:8}}>{review.text}</p><div style={{marginTop:8,fontSize:12,color:'#9ca3af'}}>{review.date}</div></div>) }
